@@ -1,0 +1,43 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+header{
+    background-color: rgb(241, 193, 190);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: rgb(7, 65, 255);
+    color: cornsilk;
+}
+ul li.active a{
+    background-color: rgb(0, 37, 248);
+    color: cornsilk;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
